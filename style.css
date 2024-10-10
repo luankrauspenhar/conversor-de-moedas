@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body {
+    background: #8A51FC;
+    height: 160vh;
+}
+
+.logo-gif {
+    width: 200px;
+    height: 200px;
+    opacity: 0px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+main {
+    background-color: #fff;
+    height: 715px;
+    width: 375px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 230px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+#select-real {
+    width: 327px;
+    height: 40px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    margin: 10px 30px 10px 3px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    appearance: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    padding-left: 10px;
+    color: #555555;
+    cursor: pointer;
+}
+
+.label-real {
+    margin: 20px;
+    font-size: 14px;
+    color: #777777;
+}
+
+#select-dolar {
+    width: 327px;
+    height: 40px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    margin: 10px 30px 10px 3px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    appearance: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    padding-left: 10px;
+    color: #555555;
+    cursor: pointer;
+}
+
+.label-dolar {
+    margin: 5px 20px;
+    font-size: 14px;
+    color: #777777;
+}
+
+#input-valor {
+    width: 327px;
+    height: 40px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    margin: 10px 30px 10px 3px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.valor {
+    margin: 20px;
+    font-size: 14px;
+    color: #777777;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+button {
+    width: 327px;
+    height: 48px;
+    border-radius: 5px 0px 0px 0px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: #772FD3;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    width: 327px;
+    height: 276px;
+    margin-top: 20px;
+    border-radius: 20px ;
+    border: 1px solid #772FD3;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.real {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+
+.logos-moedas {
+    height: 40px;
+    width: 40px;
+}
+
+.paragrafo-moeda {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 8px;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+
+.seta {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 110px;
+}
+
+.dolar {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 180px;
+    margin-left: 5px;
+}
+
+.currency-value, .currency-value-to-convert {
+    color: #555555;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+}
